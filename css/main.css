@@ -1,0 +1,311 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Source Sans 3', sans-serif;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: unset;
+} 
+.navs{
+    position: relative;
+}
+.about-text-cstm{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    color: #787878;
+}
+.btn-about-cstm{
+    border-radius: 0%;
+    font-size: 11px;
+    line-height:48px;
+    padding: 0px 30px;
+    font-weight: 500;
+    letter-spacing: 0.55px;
+}
+.h2-team{
+    color: #1F1F1F;
+    font-size: 38px;
+    line-height: 49.4px;
+    font-weight: 700;
+    position: relative;
+}
+.C-letter{
+    font-size: 80px;
+    position: absolute;
+    opacity: 0.1;
+    left: 48%;
+    bottom: 15px;
+}
+.h4-team{
+    color:#787878 ;
+    font-size: 18px;
+    line-height: 23.4px;
+    font-weight: 400;
+}
+.team-h4{
+    color: #fff;
+    font-size: 13px;
+    line-height: 16.9px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    padding-left: 50px;
+}
+.container-cstm{
+    background-color: #626262;
+}
+.content{
+    color:#fff ;
+    line-height: 24px;
+}
+.text-1 h2{
+    font-size: 38px;
+    line-height: 49.4px;
+    font-weight: 700;
+    position: relative;
+}
+.letter-w{
+    font-size: 80px;
+    position: absolute;
+    opacity: 0.1;
+    font-weight: 700;
+}
+.prices{
+    background-color: #F7F7F7;
+}
+.ul-text{
+    text-align: left;
+}
+.ul-text li{
+    padding-top: 15px;
+    color: #787878;
+}
+.ca-h4{
+    text-align: left;
+    padding-left: 30px;
+    color:#1F1F1F;
+    font-size: 13px;
+    line-height: 16.9px;
+    font-weight: 400;
+}
+.card{
+    border: none;
+    transition: box-shadow 0.3s
+}
+.card:hover{
+    -webkit-box-shadow: 0px 3px 14px 2px rgba(0,0,0,0.29);
+    -moz-box-shadow: 0px 3px 14px 2px rgba(0,0,0,0.29);
+    box-shadow: 0px 3px 14px 2px rgba(0,0,0,0.29);
+}
+.advice{
+    border: solid 3px ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: #F7F7F7;
+    font-size: 11px;
+    line-height: 13.5px;
+    font-weight: 500;
+    position: relative;
+    bottom: 5px;
+}
+.gold-card-cstm{
+    position: relative;
+    bottom: 25px;
+}
+.dollar-sign{
+    color: #1F1F1F;
+   font-size: 18px;
+   line-height: 23.4px;
+   vertical-align: top; 
+}
+.ca-h2{
+    text-align: left;
+    padding-left: 30px;
+    color:#1F1F1F;
+    font-size: 55px;
+    line-height: 71.5px;
+    font-weight: 500;
+}
+.btn-card-cstm{
+    color: #fff;
+    position: relative;
+    right: 57px;
+}
+.btn-card-cstm:hover{
+    background-color: #00D5EE;
+    color: #fff;
+    position: relative;
+    bottom: 3px;
+}
+.client1{
+    border: solid 3px #FFFFFF;
+    background-color: #fff;
+    width: 60%;
+    margin: auto;
+    padding: 50px 0px;
+    border-radius: 10px;
+}
+.client1-img{
+    width: 90px;
+    border-radius: 50%;
+    border: solid 4px #f4f4f4;
+    transform: translateY(50%);
+}
+.control-prev-cstm{
+    color: #000;
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #00D5EE;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: gray;
+}
+.contact-h2{
+    font-size: 38px;
+    line-height: 49.4px;
+    font-weight: 700;
+    color: #1F1F1F;
+}
+.G-letter{
+    font-size: 80px;
+    position: relative;
+    opacity: 0.1;
+    font-weight: 700;
+    bottom: 2px;
+    left: 60px;
+}
+.contact-h4{
+   position: relative;
+   left: 75px;
+}
+.form-btn-cstm{
+    color: #fff;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 0px 30px;
+}
+.form-btn-cstm:hover{
+    background-color: #00D5EE;
+    color: #fff;
+}
+form input, textarea {
+    border: solid 3px #f4f4f4;
+}
+.imglyr{
+    position: relative;
+    overflow: hidden;
+
+}
+.overlay{
+    position: absolute;
+    top: 100%;
+    width: 93%;
+    left: 3%;
+    height: 100%;
+    background-color: rgba(0, 195, 218, 0.9);
+    transition: top 0.4s;
+}
+.imglyr:hover .overlay{
+    top: 0%;
+}
+.overlay .h4-text{
+    position: relative;
+    top: 72%;
+    left: 3%;
+}
+
+.overlay .p-text{
+    position: relative;
+    top: 70%;
+    left: 3%;
+}
+.icon-place{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    padding-left: 10px;
+}
+.carousel-cstm{
+    height: 100vh;
+    position: relative;
+}
+.layer{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    left: 0%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    transition: top 0.4s;
+}
+.h1-cstm {
+    position: relative;
+    top: 30%;
+    font-size: 100px;
+    line-height: 125px;
+    font-weight: 700;
+}
+.h4-cstm {
+    position: relative;
+    top: 30%;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+.carousel-inner{
+    height: 100vh;
+}
+.btn1-cstm button{
+color: white;
+padding: 10px 25px;
+border-radius: 5px;
+}
+.btn2-cstm{
+    padding-left: 10px;
+} 
+.btn2-cstm button{
+    color: white;
+    border: solid white 1px;
+    padding:10px 25px;
+    border-radius: 5px;
+}
+.btn2-cstm button:hover{
+    color: #000;
+    background-color: white;
+}
+.btns{
+    position: relative;
+    top: 32%;
+}
+.navbar-1{
+    position: absolute;
+    z-index: 999999;
+}
+.ul-cstm li a{
+    color: white;
+}
+.navbar-cstm{
+    transition: background-color 1.5s;
+}
+.img-cstm{
+    height: 100vh;
+}
+:root{
+    scroll-behavior: auto;
+}
