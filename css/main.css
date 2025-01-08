@@ -18,6 +18,10 @@ a{
 .navs{
     position: relative;
 }
+
+.navbar-toggler{
+    border: none !important;
+}
 .about-text-cstm{
     font-size: 24px;
     line-height: 36px;
@@ -58,7 +62,7 @@ a{
     line-height: 16.9px;
     font-weight: 600;
     letter-spacing: 1.3px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 .container-cstm{
     background-color: #626262;
@@ -190,10 +194,6 @@ a{
     bottom: 2px;
     left: 60px;
 }
-.contact-h4{
-   position: relative;
-   left: 75px;
-}
 .form-btn-cstm{
     color: #fff;
     font-size: 14px;
@@ -255,11 +255,14 @@ form input, textarea {
     background-color: rgba(0,0,0,0.5);
     transition: top 0.4s;
 }
+.toggler-black {
+    color: black !important;
+  }
+  
 .h1-cstm {
     position: relative;
     top: 30%;
-    font-size: 100px;
-    line-height: 125px;
+    font-size: 80px;
     font-weight: 700;
 }
 .h4-cstm {
